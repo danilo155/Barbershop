@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+.Servisecatalog {
+  display: flex;
+}
+.Servisecatalog ul {
+  list-style-type: none;
+}
+.Servise {
+  background: url("/img/фон.svg");
+}
+.hr hr {
+  border: 10px solid #dd2626;
+  width: 177px;
+}
