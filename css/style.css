@@ -13,8 +13,8 @@
 }
 .Service {
   background: url("/img/фон.svg");
-  width: 100%;
-  position: absolute;
+  width: 1440px;
+  position: relative;
   top: 10px;
   left: 10px;
   bottom: -10px;
