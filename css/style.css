@@ -61,16 +61,50 @@
   display: flex;
   background: url("/img/фон черний.svg");
 }
+.information p {
+  width: 801px;
+}
 .list1 {
   display: flex;
+}
+.information > img {
+  /* position: relative;
+  top: 231px;
+  right: -47px; */
+  padding-top: 231px;
 }
 .list {
   justify-content: space-between;
   width: 100%;
+}
+.list1 {
+  margin-top: 10px;
+}
+.company-informations {
+  padding-top: 10px;
 }
 .company-informations h2 {
   color: #ffffff;
 }
 .company-informations p {
   color: #fff;
+  font-family: "Roboto" serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.masters {
+  background: url("/img/фон черний.svg");
+}
+.masters h2 {
+  color: #fff;
+  text-align: end;
+}
+.masters h2::after {
+  content: "";
+  position: relative;
+  justify-content: flex-end;
+  width: 177px;
+  display: block;
+  height: 2px;
+  background-color: #dd2626;
 }
