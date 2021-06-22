@@ -1,7 +1,39 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 50px 0; 
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  list-style: none;
+  display: flex;
+}
+li a{
 
+}
+.promo-inner{
+  height: 100%;
+}
+.promo{
+  height: 80vh;
+  background: #121212;
+
+  background: url('/img/фоткаpromo-bg.png') right no-repeat;
+  display: flex;
+  align-items: center;
+}
+.promo-text{
+  width: 50%;
+}
 .Servisecatalog {
   display: flex;
 }
